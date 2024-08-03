@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(46, 116, 91);
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    margin-right: 2px;
+    border-radius: 1rem;
+    box-shadow: 0 0 1 ;
+    font-size:8vmin;
+}
+.rstbtn{
+    padding: 1rem;
+}
+#msg{
+    width:20vw;
+    background-color: rgb(148, 231, 204);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newbtn{
+    padding: 1rem;
+}
+.winner{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.hide{
+    display: none;
+}
+.comp{
+    padding: 1rem;
+}
+.user{
+    padding: 1rem;
+}
